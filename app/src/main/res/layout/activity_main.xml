@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android' android:layout_width='match_parent' android:layout_height='match_parent' android:orientation='vertical' android:padding='16dp'>
+    <EditText android:id='@+id/num1' android:layout_width='match_parent' android:layout_height='wrap_content' android:hint='Number 1' android:inputType='numberDecimal'/>
+    <EditText android:id='@+id/num2' android:layout_width='match_parent' android:layout_height='wrap_content' android:hint='Number 2' android:inputType='numberDecimal'/>
+    <Button android:onClick='add' android:layout_width='match_parent' android:layout_height='wrap_content' android:text='Add'/>
+    <Button android:onClick='subtract' android:layout_width='match_parent' android:layout_height='wrap_content' android:text='Subtract'/>
+    <Button android:onClick='multiply' android:layout_width='match_parent' android:layout_height='wrap_content' android:text='Multiply'/>
+    <Button android:onClick='divide' android:layout_width='match_parent' android:layout_height='wrap_content' android:text='Divide'/>
+    <TextView android:id='@+id/result' android:layout_width='match_parent' android:layout_height='wrap_content' android:textSize='24sp' android:gravity='center' android:padding='16dp'/>
+</LinearLayout>
